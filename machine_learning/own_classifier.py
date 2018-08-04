@@ -48,3 +48,5 @@ predictions = my_classifier.predict(X_test)
 from sklearn.metrics import accuracy_score
 
 print(accuracy_score(y_test, predictions))
+
+print('HEllo World')
