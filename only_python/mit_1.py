@@ -5,13 +5,15 @@ start_time = time.clock()
 def peak_finder(list):
     n = list[1]
 
-    if n < list[n-1] and n >list[n+1]:
-        return n
+    if n < list[9999]:
 
-    if n < list[len(list)-2]:
-        return n
-    else:
-        return peak_finder(n+1)
+        if n < list[n-1] and n >list[n+1]:
+            return n
+
+   # if n < list[len(list)-2]:
+       # return n
+        else:
+            return peak_finder(n+1)
 
 
 
